@@ -73,7 +73,6 @@ EKS-INFRA/
 │
 └── README.md
 
-
 ---
 
 ## ✅ Setup Instructions
