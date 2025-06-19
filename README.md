@@ -54,38 +54,6 @@ We have implemented a production-style Kubernetes infrastructure on AWS that:
 
 ---
 
-## 📁 Project Structure
-
-EKS-INFRA/
-├── environments/
-│   └── prod/
-│       ├── iam-eks-role.tf
-│       ├── iam-node-role.tf
-│       ├── main.tf
-│       ├── outputs.tf
-│       ├── sg.tf
-│       ├── terraform.tfstate
-│       ├── terraform.tfstate.backup
-│       ├── terraform.tfvars
-│       └── variables.tf
-├── modules/
-│   ├── bastion/
-│   │   ├── main.tf
-│   │   ├── outputs.tf
-│   │   └── variables.tf
-│   ├── eks-cluster/
-│   │   ├── main.tf
-│   │   ├── outputs.tf
-│   │   └── variables.tf
-│   ├── eks-node-group/
-│   │   ├── main.tf
-│   │   ├── outputs.tf
-│   │   └── variables.tf
-│   └── vpc/
-│       ├── main.tf
-│       ├── outputs.tf
-│       └── variables.tf
-└── README.md
 
 ---
 
